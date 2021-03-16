@@ -18,3 +18,5 @@
       ### Error Handling
        + If any fails during run, goto Configure Error Output and select <b>"Ignore Failure"</b> in error and Truncation. Now run to get output
        + To get the records that are missing add "Derived column" to D1, D2. Which gives the missing records in truncation ("Redirect row")
+       + In missing records all column with "Null" title failed. So, Title == "Mr." fails on Null.
+       + NULL functions will help,Use REPLACENULL(Title,"Not Mr.") == "Mr." [If Mr then Mr==Mr pass, If Ms then Ms==Mr fail, if Null then Not Mr==Mr fail ]
