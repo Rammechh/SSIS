@@ -8,4 +8,11 @@
 ---
 ## MultiCast
   + Multicast Transformation in SSIS sends input data to multiple destination paths without applying any conditions or transformations. OR, Takes ONE Input and makes the logical COPY of data and passes the same data to multiple outputs.
-  + Source --> Multicast -> Destination1, D2, D3... (Saves memory and time instead of two source)
+  + Flow: Source --> Multicast -> Destination1, D2, D3... (Saves memory and time instead of two source)
+---
+## Conditional split
+  + The Conditional Split Transformation task checks for the specified condition. It moves the data to an appropriate destination depending upon the condition.
+  + Flow: Source-> Conditional split-> D1, D2
+  + In Cond. Split -> after dob. click drag and drop column and give condition Title == "Mr.", now run will throw Error, will be covered as Error Handling
+      ### Error Handling
+          + 
