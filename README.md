@@ -16,4 +16,4 @@
   + If Condition used in D1, D2 will pick the remaining records
   + In Cond. Split -> after dob. click drag and drop column and give condition Title == "Mr.", now run will throw Error, will be covered as Error Handling
       ### Error Handling
-          + If any fails, goto Configure Error Output
+       + If any fails, goto Configure Error Output
