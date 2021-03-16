@@ -16,4 +16,5 @@
   + If Condition used in D1, D2 will pick the remaining records
   + In Cond. Split -> after dob. click drag and drop column and give condition Title == "Mr.", now run will throw Error, will be covered as Error Handling
       ### Error Handling
-       + If any fails during run, goto Configure Error Output and select <b>"Ignore Failure"</b>
+       + If any fails during run, goto Configure Error Output and select <b>"Ignore Failure"</b> in error and Truncation. Now run to get output
+       + To get the records that are missing add "Derived column" to D1, D2. Which gives the missing records in truncation ("Redirect row")
