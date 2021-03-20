@@ -20,3 +20,9 @@
        + To get the records that are missing add "Derived column" to D1, D2. Which gives the missing records in truncation ("Redirect row")
        + In missing records all column with "Null" title failed. So, Title == "Mr." fails on Null.
        + NULL functions will help,Use REPLACENULL(Title,"Not Mr.") == "Mr." [If Mr then Mr==Mr pass, If Ms then Ms==Mr fail, if Null then Not Mr==Mr fail ]
+---
+## Row Sampling and Percentage Sampling
+  + Under Other Transforms in Toolbox -> Row Sampling & Percentage Sampling
+      + Row Sampling -> Randomly select some of the records and No.of.rows can be specified.
+      * Using the Same Random Seed option will fetch the same sample datas used for tesing purposes
+      * Will have two types of data 1)
