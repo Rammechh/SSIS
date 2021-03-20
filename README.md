@@ -1,5 +1,5 @@
 # SSIS
-## Aggregation
+## Aggregation (Group by, count, count distinct)
   + Aggregate data with fn's like Average, Sum, Count, Max & Min.
   + Choose OLE DB Source as Customer table
   + Aggregate fn in middle (select any one column(salesperson) and use group by operation, then select (* ) count all operation) 
@@ -24,5 +24,5 @@
 ## Row Sampling and Percentage Sampling
   + Under Other Transforms in Toolbox -> Row Sampling & Percentage Sampling
       + Row Sampling -> Randomly select some of the records and No.of.rows can be specified.
-      * Using the Same Random Seed option will fetch the same sample datas used for tesing purposes
-      * Will have two types of data 1)
+      * Selecting the '**Use the Following Random Seed**' option will fetch the same sample datas used for tesing purposes
+      * Will have two types of data 1) Sampling selected Output 2) Sampling Unselected Output
