@@ -41,3 +41,9 @@
   * double click excel and select new to create table pseudo sql code. Select Excel destination.
   * Right click on Excel, Advanced editor and select the correct data types in 'Input and output properties' tab. Compare Input and External columns.
   * Or else, use data conversion in middle.
+---
+## Union All
+  + Used to Join datas from multiple source 
+  + Add data conversion tabs to combine data
+  + Use sort and derived columns to sort the data
+---
