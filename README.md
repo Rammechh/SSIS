@@ -36,8 +36,8 @@
   + Slect flat fle as source, select the file path, Select the Delimiter option and can select colon(:), Semicolon(;), Vertical bar(|), Comma(,), Tab(t), Carraige return(CR), Line feed(LF)
   + We can skip the rows, In Advanced tab can change Column name and data type.
   ### Excel as Destination
-      * Select the Excel File as Destination
-      * In Conn Manager, select the path and specify the name eg. Output1.xls and choose Microsoft Excel 97-2003.
-      * double click excel and select new to create table pseudo sql code. Select Excel destination.
-      * Right click on Excel, Advanced editor and select the correct data types in 'Input and output properties' tab. Compare Input and External columns.
-      * Or else, use data conversion in middle.
+  * Select the Excel File as Destination
+  * In Conn Manager, select the path and specify the name eg. Output1.xls and choose Microsoft Excel 97-2003.
+  * double click excel and select new to create table pseudo sql code. Select Excel destination.
+  * Right click on Excel, Advanced editor and select the correct data types in 'Input and output properties' tab. Compare Input and External columns.
+  * Or else, use data conversion in middle.
