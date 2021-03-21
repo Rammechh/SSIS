@@ -69,6 +69,6 @@
   + Attached scipt function.
   + Select Readonly or Readwrite varibales in script and add code.
   + Msgbox(Dts.Variables("No_of_rows).Value.ToString) in VB added
-  + Messagebox(Dts.Variables["No_of_rows"].Value.ToString()) in C# added
-  + 
+  + Messagebox(Dts.Variables["No_of_rows"].Value.ToString()) in C# added.
 ---
+# Course Completed
