@@ -24,7 +24,7 @@
 ## Row Sampling and Percentage Sampling
   + Under Other Transforms in Toolbox -> Row Sampling & Percentage Sampling
       + Row Sampling -> Randomly select some of the records and No.of.rows can be specified.
-      * Selecting the '**Use the Following Random Seed**' option will fetch the same sample datas used for tesing purposes
+      * Selecting the '**Use the Following Random Seed**' option will fetch the same sample datas used for testing purposes
       * Will have two types of data 1) Sampling selected Output 2) Sampling Unselected Output
 ---
 ## Excel as Source
