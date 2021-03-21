@@ -26,3 +26,8 @@
       + Row Sampling -> Randomly select some of the records and No.of.rows can be specified.
       * Selecting the '**Use the Following Random Seed**' option will fetch the same sample datas used for tesing purposes
       * Will have two types of data 1) Sampling selected Output 2) Sampling Unselected Output
+---
+## Excel as Source
+  + Select the Source as Excel and select the file path.
+  + Select Table or View
+  + Select Name of Excel sheet
