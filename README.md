@@ -47,3 +47,7 @@
   + Add data conversion tabs to combine data
   + Use sort and derived columns to sort the data
 ---
+## Merge
+  + Merge Joins two or more sorted sources into single
+  + Column data types must be converted and sorted to get complete required data
+  + Added one package 'Practice'
