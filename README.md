@@ -55,3 +55,5 @@
 ## Auditing
   + Will be used to get real time data, 'Execution Start time', Machine name etc.
   + Options under Audit 1)Execution instance GUID(unique ID) 2)Package ID 3)Package Name 4)Version ID 5)Execution Start time 6)Machine name 7)Username 8)Taskname
+  + Can also add derived columns after auditing and used for other functions like GETDATE etc.,
+  + 
