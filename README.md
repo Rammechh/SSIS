@@ -51,3 +51,7 @@
   + Merge Joins two or more sorted sources into single
   + Column data types must be converted and sorted to get complete required data
   + Added one package 'Practice'
+---
+## Auditing
+  + Will be used to get real time data, 'Execution Start time', Machine name etc.
+  + Options under Audit 1)Execution instance GUID(unique ID) 2)Package ID 3)Package Name 4)Version ID 5)Execution Start time 6)Machine name 7)Username 8)Taskname
