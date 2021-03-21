@@ -58,3 +58,8 @@
   + Can also add derived columns after auditing and used for other functions like GETDATE etc.,
   + It can also be used to store audit datas in different table (good pracice for security)
   + Audit Package also attached.
+---
+## Adding Variables
+  + At the top right corner, Can add the varibales
+  + Variables uesd to store values. Eg: Row Count function will fetch the No.of.rows, it can be added to that variable
+  + Can add break pts in Control flow
