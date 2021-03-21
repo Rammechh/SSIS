@@ -31,3 +31,7 @@
   + Select the Source as Excel and select the file path.
   + Select Table or View
   + Select Name of Excel sheet
+---
+## Flat File
+  + Slect flat fle as source, select the file path, Select the Delimiter option and can select colon(:), Semicolon(;), Vertical bar(|), Comma(,), Tab(t), Carraige return(CR), Line feed(LF)
+  + We can skip the rows, In Advanced tab can change Column name and data type.
